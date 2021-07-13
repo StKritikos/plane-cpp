@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
-#include "plane.h"
+#include "planeClasses.h"
 using namespace std;
 
 void clone_encrypt_and_print(Object& plane);
