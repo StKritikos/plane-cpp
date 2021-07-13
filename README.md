@@ -1,1 +1,1 @@
-School project simulating airplane parts with C++ objects.
+School project simulating airplane parts with C++ classes.
