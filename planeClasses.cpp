@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <sstream>
 #include <string>
-#include "plane.h"
+#include "planeClasses.h"
 using namespace std;
 
 extern int additive_object_id;
