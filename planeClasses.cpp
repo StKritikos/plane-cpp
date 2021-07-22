@@ -24,11 +24,13 @@ void clone_encrypt_and_print(Object& plane) {
 	
 	int num_of_positions = (rand() % 10) + 1;  //1-10 positions to change string_of_copied_plane
 	int random_position;
+	
 	for(int i=0 ; i < num_of_positions ; i++)
-	{
+		{
 		random_position = rand() % (string_of_copied_plane -> length()) + 1;   //a random position of the string changes each time 
 		string_of_copied_plane -> updateAt(random_position , '0');  //changing a character of the string to '0'
-	}
+		}
+	
 	string_of_plane -> print();
 	string_of_copied_plane -> print();
 	
